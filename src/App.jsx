@@ -1,11 +1,13 @@
 //Admin
 import AdminNavbar from "./components/AdminNavbar";
-//User
+// import AdminSidebar from "./components/AdminSidebar";
+
 
 const App = () => {
   return (
     <main>
       <AdminNavbar />
+      {/* <AdminSidebar /> */}
     </main>
   );
 };
